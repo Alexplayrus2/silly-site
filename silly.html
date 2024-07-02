@@ -140,15 +140,17 @@ Wire fraud`
   addEventListener("mousedown", (event) => {});
 
 onmousedown = (event) => {
-  print(crimes)
-  win = window.open('https://www.youtube.com/logout', 'FREE', 'width=400, height=200')
-  for (;;)
-    {
-      function getRandomInt(max) {
-  return Math.floor(Math.random() * max);
-}
-      win.moveTo(getRandomInt(500),getRandomInt(500))
-    }
+  win = window.open("{url}", "_blank", "popup=yes").focus();
+  win.moveTo(Math.floor(Math.random() * 500), Math.floor(Math.random() * 500))
+  var input = document.createElement('input');
+input.type = 'file';
+input.click();
+  print()
+  alert("Downloading [FREE}")
+  alert("Free Minecraf t 2015.2.zip has been downloaded")
+  for (;;){
+    alert("5")
+  }
 };
   
 </script>
