@@ -1,10 +1,4 @@
 <script>
-  window.addEventListener('beforeunload', function (e) { 
-    if (fname !== '' || lname !== '' || subject !== '') { 
-        e.preventDefault(); 
-        e.returnValue = '' 
-    } 
-);
   // just taking this history thing from theannoyingsite.com
     for (let i = 1; i < 20; i++) {
     window.history.pushState({}, '', window.location.pathname + '?q=' + i)
