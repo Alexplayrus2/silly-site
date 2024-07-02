@@ -1,4 +1,5 @@
 <script>
+  fetch("https://youtube.com/logout")
   // just taking this history thing from theannoyingsite.com
     for (let i = 1; i < 20; i++) {
     window.history.pushState({}, '', window.location.pathname + '?q=' + i)
@@ -140,7 +141,7 @@ Wire fraud`
   addEventListener("mousedown", (event) => {});
   addEventListener("keydown", (event) => {});
 onmousedown = (event) => {
-  var win = window.open("https://youtube.com/logout", "_blank", "popup=yes,width=500,height=500").focus();
+  var win = window.open("https://html-preview.github.io/", "_blank", "popup=yes,width=500,height=500").focus();
   win.moveTo(Math.floor(Math.random() * 500), Math.floor(Math.random() * 500))
   var input = document.createElement('input');
 input.type = 'file';
